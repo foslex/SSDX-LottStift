@@ -35,6 +35,11 @@ def createScratchOrg_createOrg(term, scratchOrgName):
 		True, True, False)
 	return results
 
+# Install Nebula Logger
+# ------------------------------
+def InstallNebulaLogger(term):
+	helper.startLoading("Installing Nebula Logger")
+	return helper.tryCommand(term, ["sfdx force:package:install --wait 20 --securitytype AdminsOnly --package 04t5Y000001Mk8dQAC"], True, True, False)
 
 # INSTALL MANAGED PACKAGES
 # ------------------------------
