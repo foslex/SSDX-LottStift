@@ -22,7 +22,7 @@ pip3 install virtualenv
 
 # ssdx installation
 cd [path_to_dx_project]
-bash <(curl -s https://raw.githubusercontent.com/johnforeland/ssdx/master/scripts/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/foslex/ssdx/master/scripts/install.sh)
 ```
 
 ## Windows
