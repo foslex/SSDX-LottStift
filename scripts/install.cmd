@@ -1,7 +1,7 @@
 @echo off
 
 RD /S /Q "%cd%\.ssdx"
-call git clone https://github.com/johnforeland/ssdx.git .ssdx
+call git clone https://github.com/foslex/ssdx-lottstift.git .ssdx
 cd .ssdx
 
 call git clone https://github.com/billryoung/sfdx-wry-plugin.git
